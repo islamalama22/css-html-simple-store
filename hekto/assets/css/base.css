@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type:none;
+}
+
+:root {
+    --maincolor: #FB2E86;
+    --mainfont: "Josefin Sans", sans-serif;
+    --subfont:   "Lato", sans-serif;
+    --seccolor: #F2F0FF;
+    --color_darkblue: #0D0E43;
+    --color_blue: #8A8FB9;
+    --color_ofwhite: #F7F7F7;
+    --color_perbel: #ACABC3;
+}
+
+.container{
+    width: calc(100% - (1*376px));
+    margin: auto;
+}
+
+* button{
+        cursor: pointer;
+
+}
+* button:hover{
+     transition: 0.6;
+     box-shadow: 2px 1px 4px rgb(14, 10, 10);
+
+
+      
+}
+
+
+
+* a:hover{
+    color: #FB2E86;
+}
+
+* li:hover  a{
+    color: #FB2E86;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+
+.border-0{
+    border: none;
+}
+
+.outline-0{
+    outline: none;
+}
+.active{
+    color:var(--maincolor)
+}
+
+.text_link{
+    color: var(--color_darkblue);
+}
+
+.d_flex{
+    display: flex;
+}
+
+.f_w{
+    display: flex;
+    flex-wrap: wrap;
+}
+.jus_betw{
+    justify-content: space-between;
+}
+
+.gap35{
+    gap: 35px;
+}
+.pad10{
+    padding: 10px;
+}
+
+.bor_2px{
+    border: 3px solid var(--color_ofwhite);
+    
+}
+
+.block{
+    display: inline-block;
+}
+
+.padd_20{
+    padding: 20px;
+}
+
+.text_align{
+    text-align: center;
+}
+
+.color_main{
+color: #FB2E86;}
+
+
+.gg{
+    background-color: rgb(46, 71, 139);
+}
+.title{
+      font-family: var(--mainfont);
+}
+
+.title h2{
+     color: #1A0B5B;
+    text-shadow: 0px 1px 1px #000025 ;
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    line-height: 100%;
+
+}
